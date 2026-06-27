@@ -1,0 +1,45 @@
+[
+  {
+    "name": "pnp-sharepoint-skills-convert-cowork-skill-to-sharepoint",
+    "source": "pnp",
+    "title": "Convert Cowork Skill to SharePoint",
+    "shortDescription": "Convert a skill made for Copilot Cowork into a skill for Copilot in SharePoint",
+    "url": "https://github.com/pnp/sharepoint-skills/tree/main/Skills/convert-cowork-skill-to-sharepoint",
+    "longDescription": [
+      "This skill helps convert an existing Copilot Cowork skill into a Copilot in SharePoint skill.",
+      "It reviews the source skill, identifies Cowork-specific assumptions, prepares a SharePoint-native conversion plan, waits for user approval, then creates or updates the converted skill in AgentAssets/Skills."
+    ],
+    "creationDateTime": "2026-06-26",
+    "updateDateTime": "2026-06-26",
+    "products": [
+      "SharePoint",
+      "Microsoft 365 Copilot"
+    ],
+    "metadata": [
+      { "key": "SAMPLE-TYPE", "value": "SharePoint-AI-Skill" },
+      { "key": "SKILL-CATEGORY", "value": "Skill Management" }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sharepoint-skills/raw/main/Skills/convert-cowork-skill-to-sharepoint/assets/preview.png",
+        "alt": "Convert Cowork Skill to SharePoint skill in action"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "sparkitect",
+        "pictureUrl": "https://github.com/sparkitect.png",
+        "name": "Jim Duncan"
+      }
+    ],
+    "references": [
+      {
+        "name": "agentskills.io specification",
+        "description": "The specification that SharePoint AI skills follow for installation and discovery.",
+        "url": "https://agentskills.io/specification"
+      }
+    ]
+  }
+]
